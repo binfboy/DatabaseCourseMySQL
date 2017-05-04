@@ -1,0 +1,23 @@
+	You need to add those six sample records in the universal table back to your database.
+	
+	
+	PK query statements need to have a WHERE clause that checks the nullability of all the PK columns.
+	For example, your query for checking gene_synonym is incorrect.
+Corrected
+	
+	Your database doesn’t have the view vw_p2p. You need to create that view before backing up your database.
+likely due to old database
+
+	•	Your view vw_p2p_ has two errors: o	The column Disease Name in the table do has a space between two words. 
+	o	The column HGNC _ID in UniProtKB_Entry has an extra space. • 
+likely due to an old database file, make sure it is up to date and rerun scripts to make sure they work.
+
+
+	Your test query is incorrect. Comments
+	•	You may regain 3 points if you fix all the errors.
+	
+	addd data and do last statement.
+	
+	
+	
+	
